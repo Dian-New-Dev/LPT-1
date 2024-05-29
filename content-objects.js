@@ -5,7 +5,7 @@ let apresentcao = {
     fotoApresentacao2: 'images/fotoApresentacao2.jpg',
     fotoApresentacao3: 'images/fotoApresentacao3.jpg',
     fotoApresentacao4: 'images/fotoApresentacao4.jpg',
-    h2Apresentcao1: 'CULTIVANDO NOVOS MOMENTOS, UMA SESSÃO POR VEZ',
+    h2Apresentcao: 'CULTIVANDO NOVOS MOMENTOS, UMA SESSÃO POR VEZ',
     h3Apresentcao1: 'CRIANÇAS',
     h3Apresentcao2: 'JOVENS',
     h3Apresentcao3: 'CASAIS',
@@ -14,25 +14,29 @@ let apresentcao = {
 //https://i.etsystatic.com/12498747/r/il/7cfb6c/3181179402/il_fullxfull.3181179402_buvw.jpg
 
 let servicos = {
-    h4: 'TERAPIA COGNITIVO-COMPORTAMENTAL',
+    h3: 'TERAPIA COGNITIVO-COMPORTAMENTAL',
     h2: 'Desvendar O Passado, Compreender o Presente, Preservar o Futuro',
     p: 'A Terapia Cognitivo-Comportamental (TCC) é uma abordagem terapêutica amplamente reconhecida por sua eficácia no tratamento de diversos problemas de saúde mental, incluindo depressão, ansiedade, transtornos alimentares e estresse pós-traumático. Um dos principais benefícios da TCC é seu foco em identificar e modificar padrões de pensamento negativos e comportamentos disfuncionais que contribuem para o sofrimento emocional. Ao trabalhar com um terapeuta, os indivíduos aprendem técnicas práticas para reestruturar pensamentos negativos, desenvolver habilidades de enfrentamento e melhorar a regulação emocional. A TCC é baseada em evidências científicas e oferece resultados duradouros, capacitando os pacientes a manejar seus sintomas de forma independente e a promover mudanças positivas em suas vidas. Além disso, a TCC é uma abordagem estruturada e orientada a objetivos, tornando-a uma opção de tratamento eficaz e eficiente para muitas pessoas.',
     botao: 'AGENDAR UMA CONVERSA',
-    imagem: 'images/fotoServicos.jpg',
+    imagem: 'images/fotoServicos.jpeg',
 }
 
 //https://res.cloudinary.com/dz209s6jk/image/upload/v1658144705/Challenges/fvv3coes3vm7ndnw6tml.jpg
 
 let reviews = {
+    h3: 'Confira quem já recebeu nosso apoio',
     h2: 'TESTEMUNHOS',
+    foto1: 'images/main3-img1.jpg',
     nome1: 'Jéssica Camargo',
     cargo1: 'Professora',
     estrelas1: 5,
     text1: 'Ana Clara tem sido uma guia incrível na minha jornada de autodescoberta e cura. Desde o primeiro encontro, ela me fez sentir completamente à vontade e segura para compartilhar meus pensamentos e sentimentos. Sua abordagem empática e suas técnicas de terapia cognitivo-comportamental me ajudaram a identificar e mudar padrões de pensamento negativos que estavam me impedindo de viver plenamente. Hoje, me sinto mais confiante e resiliente, e devo muito do meu progresso à Ana Clara. Recomendo-a sem hesitação!',
+    foto2: 'images/main3-img2.jpg',
     nome2: 'Pedro Costa',
     cargo2: 'Dentista',
     estrelas2: 4,
     text2: 'Sempre tive dificuldade em lidar com minha ansiedade, mas desde que comecei a me consultar com a Ana Clara, minha vida mudou para melhor. Ela é extremamente atenciosa e possui uma capacidade única de ouvir e entender os problemas. As sessões são sempre produtivas, e as ferramentas e técnicas que ela me ensinou foram fundamentais para melhorar meu bem-estar. Sinto-me mais preparado para enfrentar os desafios do dia a dia e sou muito grato por todo o apoio e orientação que recebi.',
+    foto3: 'images/main3-img3.jpg',
     nome3: 'Fernanda Medeiros',
     cargo3: 'Dona de Casa',
     estrelas3: 5,

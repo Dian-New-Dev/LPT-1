@@ -13,7 +13,7 @@ html {
 
 body {
     width: 100%;
-    background-color: #FFE8C8;
+    background-color: #ffe8c8a6;
 }
 
 h1 {
@@ -31,21 +31,32 @@ h1 {
 
 h2 {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 32px;
     font-style: italic;
     margin: 0;
     padding: 0;
+    color: #2f4920;
+}
+
+h3 {
+
 }
 
 p {
     font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    line-height: 40px;
 }
 
 header {
 
     width: 100%;
     height: 100%;
+}
+
+header p {
+    font-size: 16px;
 }
 
 .header1-topBar {
@@ -84,6 +95,11 @@ header {
     height: 40px;
     margin-left: 5px;
     margin-right: 0px;
+    cursor: pointer;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.05)
 }
 
 .header2-navbar {
@@ -209,4 +225,248 @@ button {
 
 button:hover {
     transform: scale(1.05)
+}
+
+main {
+    width: 100%;
+}
+
+.main1-apresentacao {
+    width: 100%;
+    padding: 100px 200px;
+
+}
+
+.main1-wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa52f09;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.main1-pictures-wrapper {
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+.pictures-divs {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffa52fce;
+    background-blend-mode: multiply;
+    margin: 0px 2px;
+    border-radius: 5px;
+}
+
+.main1-profile-picture-div {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    margin-top: -125px;
+    margin-bottom: 50px;
+
+}
+
+.main1-profile-picture-div img {
+    width: 250px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: #FFE8C8;
+    padding: 5px;
+}
+
+.main1-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main1-text p {
+    text-align: center;
+}
+
+.main1-text-h3-wrapper {
+    display: flex;
+}
+
+.main1-h3 {
+    padding: 0px 20px;
+}
+
+.middle-h3 {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.main2-servicos {
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.main2-wrapper {
+    width: 100%;
+    display: flex;
+    background-color: #ffa52f09;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.main2-img, .main2-txt {
+    padding: 0px 50px;
+}
+
+.main2-img {
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.main2-txt {
+    width: 50%;
+    height: 100%;
+
+}
+
+.main3-reviews {
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.main3-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa52f09;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+
+
+.review-panel {
+    width: 700px;
+    padding: 50px;
+    border-radius: 40px;
+    background-color: #fcf3e6;
+
+}
+
+
+.upper-panel {
+    display: flex;
+    width: 100%;
+}
+
+.main3-img-container {
+
+    width: 40%;
+}
+
+.main3-img-container img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.upper-panel-text {
+    width: 60%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.upper-panel-text * {
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #ffa52f;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    margin: 0;
+
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    
+
+}
+
+.lower-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.lower-panel img {
+    width: 75px;
+}
+
+.estrelas {
+    width: 100%;
+}
+
+.estrelas img {
+    width: 50px;
+}
+
+footer {
+    background-color: rgb(195, 197, 185);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-upper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer button {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100px;
+    color: black;
+    border: 1px solid black;
+    font-weight: 100;
+    margin-bottom: 10px;
 }
